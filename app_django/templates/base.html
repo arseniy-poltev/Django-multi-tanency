@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <title>
+            {% if title %}
+                {{title}} - Employee Record Management System
+            {% else %}
+                Welcome to Employee Record Management System
+            {% endif %}
+        </title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel='icon' type='image/png' href="{% static 'images/favicon.ico' %}">
+        <link rel='stylesheet' href="{% static 'css/erms.css' %}">
+    </head>
+    <body>
+        {% include 'errors.html' %}
+        {% include 'messages.html' %}
+        {% block content %}{% endblock %}
+    </body>
+</html>

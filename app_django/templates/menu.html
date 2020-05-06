@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<fieldset>
+    <legend>Menu</legend>
+    <p><a href='display_employees?s=admin'>Display Admin</a></p>
+    <p><a href='display_employees?s=customer'>Display Customer</a></p>
+    <p><a href='add_employee'>Add employee</a></p>
+{#    <p><a href='delete_employee'>Delete employee</a></p>#}
+{#    <p><a href='modify_employee'>Modify employee</a></p>#}
+    <p><a href='logout'>Logout</a></p>
+</fieldset>
+{% endblock %}

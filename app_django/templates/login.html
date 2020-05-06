@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<form action="" method="POST" novalidate>
+    {%csrf_token%}
+    <fieldset>
+        <legend>Login</legend>
+        {{form.as_p}}
+        <input type='submit' value='Login'>
+    </fieldset>
+</form>
+<p><a href="register">Click here to register</a></p>
+{% endblock %}
