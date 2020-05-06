@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f800ee6-fbe6-4507-b95c-81811ed0c332" name="Default Changelist" comment="Implemented all multi db, multi tenancy function">
-      <change beforePath="$PROJECT_DIR$/ERMS.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_django/dbrouters.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/django_config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_config/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/django_config/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="99" column="26" lean-forward="true" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
+            <state relative-caret-position="40">
+              <caret line="73" column="54" lean-forward="true" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -203,7 +199,7 @@
       <workItem from="1588598252533" duration="2400000" />
       <workItem from="1588602459256" duration="17613000" />
       <workItem from="1588666235556" duration="2552000" />
-      <workItem from="1588762848411" duration="1017000" />
+      <workItem from="1588762848411" duration="1133000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented all multi db, multi tenancy function">
       <created>1588660910368</created>
@@ -223,7 +219,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23582000" />
+    <option name="totallyTimeSpent" value="23698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
@@ -468,8 +464,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/django_config/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="99" column="26" lean-forward="true" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
+        <state relative-caret-position="40">
+          <caret line="73" column="54" lean-forward="true" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
         </state>
       </provider>
     </entry>

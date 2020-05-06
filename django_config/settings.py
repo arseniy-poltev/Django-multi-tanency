@@ -71,36 +71,19 @@ TEMPLATES = [
 WSGI_APPLICATION = 'django_config.wsgi.application'
 
 
+DATABASE_ROUTERS=['dynamic_db_router.DynamicDbRouter']
 DATABASES = {
-
-    # This table is used to save user login, register information
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'default',
-        'USER': 'DB_USER',
-        'PASSWORD': 'DB_PASSWORD',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     },
-
-    # This table is used to save client information called "admin"
     'admindata': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'admindata',
-        'USER': 'DB_USER',
-        'PASSWORD': 'DB_PASSWORD',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'admindb.sqlite3'),
     },
-
-    # This table is used to save client information called "customer"
     'customerdata':{
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'customerdata',
-        'USER': 'DB_USER',
-        'PASSWORD': 'DB_PASSWORD',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'customerdb.sqlite3'),
     }
 }
 
@@ -120,7 +103,6 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-DATABASE_ROUTERS=['dynamic_db_router.DynamicDbRouter']
 
 
 LANGUAGE_CODE = 'en-us'
